@@ -1,8 +1,8 @@
 version: "3"
 services:
-       emp:
-           container_name: emp
-           image: emp
+       devopsedu/employee:
+           container_name: devopsedu/employee
+           image: devopsedu/employee
            restart: always
            build: .
            ports:
