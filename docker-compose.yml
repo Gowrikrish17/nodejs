@@ -1,14 +1,5 @@
 version: "3"
 services:
-       devopsedu/employee:
-           container_name: devopsedu/employee
-           image: devopsedu/employee
-           restart: always
-           build: .
-           ports:
-             - "8888:8888"
-           links:
-             - mongo
        mongo:
              container_name: mongo
              image: mongo
